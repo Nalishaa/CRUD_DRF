@@ -58,6 +58,8 @@ CORS_ALLOWED_ORIGINS = [
     "http://localhost:5173",
     "https://nalisha-crud-drf.netlify.app",
 ]
+CORS_ALLOW_ALL_ORIGINS = False
+CORS_ALLOW_CREDENTIALS = True
 
 ROOT_URLCONF = 'config.urls'
 
