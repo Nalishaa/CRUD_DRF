@@ -53,11 +53,11 @@ MIDDLEWARE = [
 ]
 
 # Allow your Vite dev server
-CORS_ALLOW_ALL_ORIGINS = True
-# CORS_ALLOWED_ORIGINS = [
-#     "http://localhost:5173",
-#     "https://nalisha-crud-drf.netlify.app",
-# ]
+
+CORS_ALLOWED_ORIGINS = [
+    "http://localhost:5173",
+    "https://nalisha-crud-drf.netlify.app",
+]
 
 ROOT_URLCONF = 'config.urls'
 
