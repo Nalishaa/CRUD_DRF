@@ -5,7 +5,7 @@ import Form from "./components/Form";
 import "react-toastify/dist/ReactToastify.css";
 import "./App.css";
 
-const BASE_URL = "http://127.0.0.1:8000/api/grocery";
+const BASE_URL = "https://cruddrf-production.up.railway.app/api/grocery";
 
 const App = () => {
   const [items, setItems] = useState([]);
