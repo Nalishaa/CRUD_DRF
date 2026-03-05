@@ -2,4 +2,4 @@ from django.apps import AppConfig
 
 
 class GroceryBudConfig(AppConfig):
-    name = 'grocery'
+    name = 'grocery_bud'

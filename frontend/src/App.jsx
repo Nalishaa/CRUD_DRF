@@ -1,7 +1,6 @@
 import Items from "./components/Items";
 import { useEffect, useRef, useState } from "react";
 import { ToastContainer, toast } from "react-toastify";
-import { nanoid } from "nanoid";
 import Form from "./components/Form";
 import "react-toastify/dist/ReactToastify.css";
 import "./App.css";
